@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .leftButton, .container .rightButton {
+  background-color: blue;
+  cursor: pointer;
+  padding: 20px;
+}
+.container .imageContainer {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: 10px 30px;
+  overflow: hidden;
+}
+.container .imageContainer .imageBox {
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  transition: 2s;
+}
+.container .imageContainer .imageBox img {
+  width: 500px;
+  height: 500px;
+}/*# sourceMappingURL=style.css.map */
